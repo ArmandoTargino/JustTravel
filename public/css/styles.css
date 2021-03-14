@@ -1,0 +1,423 @@
+/* #########################HOME PAGE##############################
+/* ********HTML ELEMENTS */
+
+body {
+  font-family: Ubuntu;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #FFFFFF !important;
+  font-size: 1.3rem;
+  opacity: 1 !important;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+p {
+  opacity: 1;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+/* **********NAVBAR */
+
+.background {
+  background-image: url(https://images.unsplash.com/photo-1448518184296-a22facb4446f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 55vw;
+  width: 99.1vw;
+}
+
+.headerbarra {
+  padding-right: 112px;
+  padding-left: 112px;
+  background-color: #070707 !important;
+}
+
+.navbar-brand {
+  padding-right: 200px;
+  font-size: 1.8rem;
+}
+.dropdown-menu{
+  background-color:#070707;
+}
+
+/* **********ABOUT */
+
+.about {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 180px;
+  text-align: justify;
+}
+
+.aboutText {
+  padding-right: 100px;
+}
+
+.carouselImg {
+  width: 955px;
+  height: 597px;
+}
+
+/* **********WHYTRAVEL */
+.whyTravel {
+  padding-top: 200px;
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: justify;
+}
+
+.whyTravelText {
+  padding-left: 100px;
+}
+
+.carouselTitle {
+  margin-bottom: 50px;
+}
+
+/* *****call */
+
+.call {
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  margin-top: 180px;
+  background-image: url(https://images.unsplash.com/photo-1505778276668-26b3ff7af103?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1943&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -130px;
+  height: 51vw;
+  width: 99.1vw;
+}
+
+.callHeader {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3rem;
+  text-shadow: 3px 3px black;
+}
+
+.navIcon{
+  padding-left: 20px;
+}
+
+/* ******PRICING */
+
+.plans {
+  padding-top: 100px;
+  max-width: 1080px;
+  margin-bottom: 320px;
+}
+
+.lead {
+  padding-top: 40px;
+}
+
+.pricing {
+  padding-top: 100px;
+}
+
+.cardShadow {
+  box-shadow: 1px 1px 3px 1px #000000 !important;
+}
+
+
+/* ********CONTACT */
+.foooter {
+  color: white;
+  background-color: #070707;
+}
+
+.contact {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.social-icon {
+  padding-right: 15px;
+}
+
+.footer {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #070707;
+  color: white;
+  text-align: center;
+}
+
+
+
+/* *****************ANIMATION */
+body {
+  animation: fadein 1.1s;
+  -moz-animation: fadein 1.1s;
+  /* Firefox */
+  -webkit-animation: fadein 1.1s;
+  /* Safari and Chrome */
+  -o-animation: fadein 1.1s;
+  /* Opera */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/*******************HOVER ANIMATION */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+
+/***********************MOBILE VIEW */
+@media (max-width: 1028px) {
+
+  .navbar-brand {
+    font-size: 3rem;
+  }
+  a{
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+  h3{
+    font-size: 2.5rem;
+  }
+  .carouselImg {
+    height: 51vw;
+    width: 100vw;
+  }
+  .navbar-brand {
+    padding-right: 50px;
+  }
+  .display-4{
+    font-size: 4rem;
+  }
+  .lead{
+    font-size: 2rem;
+  }
+
+  .my-0{
+    font-size: 3.5rem;
+  }
+  .card-title{
+    font-size: 3rem;
+  }
+  .list-unstyled{
+    font-size: 2rem;
+  }
+  .background {
+    width: 102vw;
+  }
+  .btn{
+    font-size: 2.5rem;
+  }
+  .navbar-toggler{
+    font-size: 3rem;
+  }
+  .pricing{
+    width:100%;
+  }
+  .call {
+    width: 102vw;
+    padding-top: 50px;
+  }
+  .carouselTitle{
+    margin-top: 180px;
+  }
+  .contactUs{
+    width: 102vw;
+  }
+  .footer{
+    width: 102vw;
+  }
+  .whyTravelText {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .aboutText {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  .about{
+    padding-top: 0;
+  }
+  .plans {
+    padding-top: 80px;
+  }
+
+
+}
+
+
+/*
+#################################CONTACT PAGE#################################################### */
+.outerContact{
+  padding-left: 250px;
+  padding-right:250px;
+}
+.contactForm{
+  padding: 80px 60px 80px 60px;
+  background-color: #edeeef;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  border-radius: 1%;
+}
+.form-label{
+  font-size: 1.2rem;
+}
+.form-control:focus {
+  border-color: #000000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 1);
+}
+
+.contactFormButton{
+  float:right;
+}
+
+
+
+
+/* ###################################CHECKOUT PAGE################################################## */
+.checkoutForm{
+  padding: 80px 100px 200px 100px;
+  background-color: #edeeef;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  border-radius: 1%;
+}
+.form-select:focus {
+  border-color: #000000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 1);
+}
+.form-check-input.form-check-input:focus {
+  border-color: #000000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 1);
+}
+.form-check-input:checked  {
+  background-color: #000000;
+  border-color:  #000000;
+}
+
+/* ##################REGISTER PAGE########################## */
+
+
+
+
+
+/* ##################LOGIN PAGE########################## */
+
+.outer{
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.loginForm{
+  display: flex;
+ flex-direction: column;
+  padding: 40px 100px 40px 100px;
+  background-color: #edeeef;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  border-radius: 1%;
+}
+
+.submitButton{
+  padding-top: 20px;
+}
+
+.oauthLogin{
+  align-self: center;
+  margin-top: 70px;
+}
+
+.btn-social{
+  margin-right: 10px;
+}
+.fa-google{
+  padding-right: 10px;
+}
+
+/* ###########################PLANS PAGE########################################### */
+
+.plans{
+  display: flex;
+ flex-direction: column;
+  padding: 40px 100px 40px 100px;
+  background-color: #edeeef;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  border-radius: 1%;
+}
