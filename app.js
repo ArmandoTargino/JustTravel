@@ -131,17 +131,6 @@ app.get("/checkout", function(req, res) {
   }else{
     res.redirect("/login");
   };
-  const requestOptions = {
-  method: 'GET',
-  headers: myHeaders,
-  body: raw,
-  redirect: 'follow'
-};
-
-  var myHeaders
-
-  fetch("https://api.")
-
 });
 
 
@@ -189,12 +178,10 @@ app.route('/login')
     })(req, res);
   })
 
-
-  let port = process.env.PORT;
-  if (port == null || port == "") {
-    port = 3000;
-  }
-
-  app.listen(port, function() {
-    console.log("Server started succesfully");
-  });
+let port =process.env.PORT;
+if(port==null||port==""){
+  port=3000;
+}
+app.listen(port, function() {
+  console.log("Server is running");
+});
