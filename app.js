@@ -31,7 +31,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb://localhost:27017/travelDB", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin-armando:EgHeljXg79pHGL5j@cluster0.u72pm.mongodb.net/travelDB", {useNewUrlParser: true, useUnifiedTopology: true});
 
 mongoose.set("useCreateIndex",true);//deprecation warnig
 const userSchema= new mongoose.Schema({
@@ -197,4 +197,4 @@ app.route('/login')
 
   app.listen(port, function() {
     console.log("Server started succesfully");
-  });                                           
+  });
